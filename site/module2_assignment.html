@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module 2</title>
+	<style>
+		div{
+			border-style: double;
+		}
+	/*	}
+		.a{
+			width: 200px;
+			height: 200px;
+		
+		}
+		.b{
+			width: 200px;
+			height: 200px;
+			
+			clear: both;
+			
+		}
+		.c
+		{
+			width: 200px;
+			height: 200px;
+			clear: both;
+		} */
+
+		.row{
+			width: 100%;
+		}
+		@media (min-width: 1200px){
+			.a,.b,.c,
+			{
+				float: left;
+				border: 2px;
+			}
+		}
+		.a{
+			width: 33.33%;
+		}
+		.b{
+			width: 33.33%;
+
+		}
+		.c{
+			width: 33.33%;
+		}
+		@media (min-width: 997px) and (max-width: 1199px){
+			.d,.e,.f{
+				float: left;
+				border: 2px;
+			}
+			.d{
+				width: 33%;
+			}
+			.e{
+				width: 33%;
+			}
+			.f{
+				width: 33%;
+			}
+
+		}
+	</style>
+</head>
+<body>
+	<div class="row"></div>
+	<div class="a">H</div>
+	<div class="b">J</div>
+	<div class="c">K</div>
+	<div class="d"></div>
+	<div class="e"></div>
+	<div class="f"></div>
+</body>
+</html>
